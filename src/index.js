@@ -39,7 +39,7 @@ var newSessionHandlers = {
         this.emit(':tell', output);
     },
     'DoctorIntent': function(){
-        output = "doctors! gasp";
+        output = "Your doctor is doctor blah blah. office is located at blah blah";
         this.emit(':tell', output);
     },
     'ManualAdherenceIntent': function(){
